@@ -60,7 +60,7 @@
 
 .home{
     display: flex;
-    background: url("1.png") no-repeat center;
+    background: url("1.png") no-repeat center/cover;
     height: 100vh;
     color: #fff;
     min-height: 500px;
@@ -86,7 +86,61 @@
     margin: 5px 0;
 }
 
-.home .home-content .text3 span{
+.home .home-content .text3 span {
     color: crimson;
     font-weight: 500;
+}
+
+.btn {
+    padding: 10px 35px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: #fff;
+    outline: none;
+    transition: 0.6s ease;
+}
+
+.btn:hover{
+    cursor: pointer;
+    font-weight: bold;
+    background-color: #fff;
+    color: black;
+    box-shadow: 0 0 5px white , 0 0 10px white , 0 0 15px white ;
+}
+
+/*---About---*/
+
+#about{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 20px;
+    margin-bottom: 50px;
+}
+
+h1{
+    text-align: center;
+    font-size: 4rem;
+}
+
+#pic{
+    display: flex;
+}
+
+#pic img{
+    width: 575px;
+    height: 390px;
+    padding-top: 30px;
+}
+
+#intro{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    padding: 60px;
+}
+
+#intro h2{
+    font-size: 2rem;
+    margin-bottom: 20px;
 }
