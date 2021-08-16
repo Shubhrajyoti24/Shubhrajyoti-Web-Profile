@@ -6,22 +6,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio 1</title>
     <link rel="stylesheet" href="style1.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"></script>
+    <script src="https://kit.fontawesome.com/08719812ac.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
     <!--NAVBAR-->
     <nav class="navbar">
         <div class="max-width">
-            <div class="logo"><a href="#">Portfo<span>lio.</span></a></div>
-            <ul class="menu">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#academics">Academics</a></li>
-                <li><a href="#">Skills</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
+            <div class="logo"><a href="#"><span>P</span>ortfolio</a></div>
+            <div class="nav-links" id="navLinks">
+                <i class="fas fa-times" onclick="hideMenu()"></i>
+                <div class="navbar-collapse">
+                    <ul class="menu">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#academics">Academics</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
         </div>
+        <i class="fas fa-bars" onclick="showMenu()"></i>
     </nav>
 
     <!--HOME-->
@@ -38,11 +46,11 @@
         </div>
     </section>
 
-    <!--ABOUT-->
+    <!--ABOUT ME-->
     <section class="about" id="about">
         <h1 class="heading1">ABOUT ME</h1>
         <div id="pic">
-            <img src="1.png" alt="">
+            <img src="3.jpeg" alt="">
             <div id="intro">
                 <h2>SHUBHRAJYOTI</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, sit sint soluta possimus nulla accusantium quo amet alias pariatur a veritatis deleniti omnis. Soluta iusto fugit dicta vel libero repudiandae sunt accusamus commodi assumenda fugiat atque excepturi corrupti dolorum, temporibus expedita quos nam dignissimos natus dolor! Explicabo totam provident suscipit enim voluptatum nulla libero est ex, laudantium doloribus quae pariatur eligendi fugit delectus dignissimos a esse reprehenderit dolorum odit quaerat. Ullam nihil dolorum, natus at fugit quam molestiae. Nobis cumque ipsam officiis quaerat ab nesciunt, ex eos ullam molestiae totam a odit minus rerum dolorem nulla quas, corrupti laborum accusantium fugit nostrum? Sint enim, minus ea cumque ullam temporibus exercitationem, perferendis dolore ratione laborum eum aliquid numquam et, voluptatem consequatur. Velit tempora quia mollitia perferendis ratione, beatae saepe non voluptate ad blanditiis fugiat nesciunt dolore eos, culpa accusantium quasi. Exercitationem dolor, aliquam soluta eligendi facilis aspernatur perspiciatis. Soluta tenetur nesciunt, atque dicta error amet in omnis animi quia assumenda? A nulla enim eveniet, expedita harum itaque officia maxime vitae unde quae iusto natus sint nobis voluptatibus dolorum delectus fugiat commodi iste vel reprehenderit cum culpa? Eaque explicabo iusto dicta, minima error repellat dignissimos eos quisquam ad amet saepe, repudiandae recusandae.</p>
@@ -84,6 +92,84 @@
             </tbody>
         </table>
     </section>
+
+    <!--MY SKILLS-->
+    <div class="skills" id="skills">
+        <h1 class="heading3">MY SKILLS</h1>
+        <div class="container">
+            <div class="skill-box">
+                <div class="skill-title">
+                    <div class="icon">
+                        <i class="fab fa-html5"></i>
+                    </div>
+                    <h3>HTML 5</h3>
+                </div>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum hic ducimus nesciunt? Repellat dignissimos, sed voluptas deleniti debitis corrupti repudiandae facilis officia nemo.</p>
+            </div>
+            <div class="skill-box">
+                <div class="skill-title">
+                    <div class="icon">
+                        <i class="fab fa-css3-alt"></i>
+                    </div>
+                    <h3>CSS 3</h3>
+                </div>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum hic ducimus nesciunt? Repellat dignissimos, sed voluptas deleniti debitis corrupti repudiandae facilis officia nemo.</p>
+            </div>
+            <div class="skill-box">
+                <div class="skill-title">
+                    <div class="icon">
+                        <i class="fab fa-js"></i>
+                    </div>
+                    <h3>JavaScript</h3>
+                </div>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum hic ducimus nesciunt? Repellat dignissimos, sed voluptas deleniti debitis corrupti repudiandae facilis officia nemo.</p>
+            </div>
+            <div class="skill-box">
+                <div class="skill-title">
+                    <div class="icon">
+                        <i class="fab fa-node-js"></i>
+                    </div>
+                    <h3>Node.js</h3>
+                </div>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum hic ducimus nesciunt? Repellat dignissimos, sed voluptas deleniti debitis corrupti repudiandae facilis officia nemo.</p>
+            </div>
+            <div class="skill-box">
+                <div class="skill-title">
+                    <div class="icon">
+                        <i class="fab fa-react"></i>
+                    </div>
+                    <h3>React</h3>
+                </div>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum hic ducimus nesciunt? Repellat dignissimos, sed voluptas deleniti debitis corrupti repudiandae facilis officia nemo.</p>
+            </div>
+            <div class="skill-box">
+                <div class="skill-title">
+                    <div class="icon">
+                        <i class="fab fa-python"></i>
+                    </div>
+                    <h3>Python</h3>
+                </div>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum hic ducimus nesciunt? Repellat dignissimos, sed voluptas deleniti debitis corrupti repudiandae facilis officia nemo.</p>
+            </div>
+        </div>
+    </div>
+
+    <!--CONTACT ME-->
+
+
+
+    <!--JavaScript-->
+    
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
 
 </body>
 </html>
