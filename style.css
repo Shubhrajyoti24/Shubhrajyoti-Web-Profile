@@ -184,7 +184,7 @@ nav .fas {
     padding-top: 70px;
     padding-bottom: 70px;
     margin: 0px auto 0px;
-    background-color: rgb(98, 98, 100);
+    background-color: #111;
 }
 
 .heading2 {
@@ -243,7 +243,7 @@ nav .fas {
 
 .skills {
     padding-top: 50px;
-    background-color: #333;
+    background-color: #111;
     padding-bottom: 25px;
 }
 
