@@ -101,17 +101,23 @@ nav .fas {
     padding: 10px 35px;
     background-color: transparent;
     border: 1px solid rgb(248, 247, 247);
-    color: #fff;
     outline: none;
     transition: 0.6s ease;
+}
+
+.btn a{
+    color: white;
 }
 
 .btn:hover{
     cursor: pointer;
     font-weight: bold;
     background-color: #fff;
-    color: black;
     box-shadow: 0 0 5px white , 0 0 10px white , 0 0 15px white ;
+}
+
+.btn a:hover {
+    color: black;
 }
 
 /*---About---*/
@@ -124,7 +130,7 @@ nav .fas {
     padding-left: 130px;
     padding-right: 80px;
     padding-bottom: 70px;
-    background-color: #57555c;
+    background-color: #111;
 }
 
 .heading1{
@@ -173,7 +179,7 @@ nav .fas {
 
 #intro p {
     font-size: 18px;
-    color:rgb(9, 9, 46);
+    color:rgb(142, 142, 168);
 }
 
 /*---Academics---*/
