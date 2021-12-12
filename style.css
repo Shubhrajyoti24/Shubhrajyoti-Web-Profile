@@ -597,7 +597,7 @@ h3{
         padding-left: 20px;
         padding-right: 30px;
         padding-bottom: 10px;
-        background-color: #57555c;
+        background-color: #111;
     }
 
     .heading1 {
@@ -640,7 +640,7 @@ h3{
         padding-top: 60px;
         padding-bottom: 70px;
         margin: 0px auto 0px;
-        background-color: rgb(98, 98, 100);
+        background-color: #111;
     }
     
     .table thead {
