@@ -388,6 +388,69 @@ h3{
     z-index: 2;
 }
 
+/*---Projects---*/
+
+.projects {
+    background-color: #111;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 30px;
+    margin: auto;
+    text-align: center;
+}
+
+h1 {
+    font-size: 36px;
+    color: black;
+    font-weight: 600;
+}
+
+.heading4 {
+    font-size: 3rem;
+    text-align: center;
+    color: rgb(191, 202, 86);
+    padding: 0.6rem;
+    position: relative;
+}
+
+.heading4:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 4px;
+    width: 140px;
+    background-color: #2ecc71;
+    border-radius: 2px;
+}
+
+.row {
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.project-col {
+    flex-basis: 31%;
+    background: #f7e3e3;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+
+h3 {
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+}
+
+.project-col:hover {
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.63);
+}
+
 /*---Contact Me---*/
 
 .contact{
@@ -408,7 +471,7 @@ h3{
     padding: 10px 20px;
 }
 
-.heading4 {
+.heading5 {
     font-size: 3rem;
     text-align: center;
     color: rgb(154, 229, 231);
@@ -416,7 +479,7 @@ h3{
     position: relative;
 }
 
-.heading4:after {
+.heading5:after {
     content: "";
     position: absolute;
     bottom: 0;
@@ -691,6 +754,14 @@ h3{
     .container {
         grid-template-columns: 1fr;
         padding: 2rem 50px;
+    }
+}
+
+/*---Projects---*/
+
+@media screen and (max-width: 900px) {
+    .row {
+        flex-direction: column;
     }
 }
 
